@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Tai</h1>
 <h3 align="center"> Power BI and Tableau Projects</h3>
 <br/>
-<h4>  🌱 Check out my visualisation skills in my Tableau and Power BI Dashboards and Reports</h4>
+<h4>  🌱 Check out my visualisation skills in my Tableau and Power BI Dashboards/Reports and DAX </h4>
 </p>
 <br/>
 <h3 align="left">Languages and Tools:</h3>
