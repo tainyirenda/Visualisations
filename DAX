@@ -1,0 +1,24 @@
+DAX Calculated Measures - Customer Sales Data
+
+Total Budget:
+Total Budget = SUM('FactBudget'[Value])
+
+Total Cost:
+Total cost = SUM('FactSales'[Unit Cost])
+
+Total Sales:
+Total sales = SUM('FactSales'[Unit Price])
+
+Total Sales (By Shipment Date):
+Total Sales (ship) = 
+CALCULATE(
+    [Total sales],
+    USERELATIONSHIP(
+        'FactSales'[Ship Date],
+        'DimDate'[Date]))
+       
+Total Transactions:
+Total transactons = COUNTROWS('FactSales')
+
+Year To Date Sales:
+YTD Sales = TOTALYTD([Total sales], 'DimDate'[Date])
